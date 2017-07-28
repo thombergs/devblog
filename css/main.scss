@@ -64,7 +64,14 @@ a:hover{
   border-bottom: 1px dotted #03a4fb;
 
 }
-
+pre{
+background-color: black;
+border:none;
+border-radius: 0px;
+font-size: 20px;
+padding: 1.5em;
+color:white; 
+}
 .post-list{
 
     text-align: center;
@@ -94,23 +101,15 @@ padding-bottom: 0.3em;
   text-align: justify;
   padding-bottom: 5em;
 }
-pre{
-background-color: black !important;
-border:none !important;
-border-radius: 0px !important;
-font-size: 20px !important;
-padding: 1.5em !important;
-color:white !important;
-}
 .post-meta{
   color: skyblue !important;
 }
 
 code{
-  background-color: black !important;
-  color: white !important;
-  border: none !important;
-  border-radius: 0px !important;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0px;
 }
 
 .page-tagline{
@@ -188,8 +187,6 @@ $on-laptop:        800px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
